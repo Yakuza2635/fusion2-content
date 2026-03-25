@@ -4,7 +4,7 @@
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
 [![Fusion](https://img.shields.io/badge/For-Fusion_App-orange)](https://apps.apple.com/app/fusion-media-library-manager/id6741428023)
 
-Curated folder posters, resource filters, widget configs, and addon settings for the [Fusion](https://apps.apple.com/app/fusion-media-library-manager/id6741428023) media library manager.
+Curated folder posters and widget configs for the [Fusion](https://apps.apple.com/app/fusion-media-library-manager/id6741428023) media library manager.
 
 ---
 
@@ -25,14 +25,6 @@ Curated folder posters, resource filters, widget configs, and addon settings for
 | Studios | `https://raw.githubusercontent.com/Yakuza2635/fusion2-content/main/folders/posters/studios/posters-studios.json` |
 | Landscapes (Streaming) | `https://raw.githubusercontent.com/Yakuza2635/fusion2-content/main/folders/landscapes/streaming/landscapes-streaming.json` |
 | Squares (Streaming) | `https://raw.githubusercontent.com/Yakuza2635/fusion2-content/main/folders/squares/streaming/squares-streaming.json` |
-
-### Resource Filters
-
-**Settings → Resource Filters → Import from URL**
-
-| Category | Import URL |
-|----------|------------|
-| All Filters | `https://raw.githubusercontent.com/Yakuza2635/fusion2-content/main/resource-filters/filters/filters.json` |
 
 ### Widgets
 
@@ -58,25 +50,6 @@ Curated folder posters, resource filters, widget configs, and addon settings for
 | Streaming Services | 25+ | Netflix, Disney+, Prime Video, HBO Max, and more |
 | Studios | 12 | Warner Bros, Universal, Paramount, Marvel Studios, and more |
 
-### Resource Filters (65 filters)
-
-| Group | Count | Items |
-|-------|-------|-------|
-| Media Source | 10 | Remux T1-T3, Bluray T1-T3, Web T1-T3, Web Scene |
-| Resolution | 3 | 4K/2160p, 1080p, 720p |
-| Dynamic Range | 5 | Dolby Vision, HDR10+, HDR10, HDR, SDR |
-| Audio | 8 | Dolby Atmos, TrueHD, DTS-X, DTS-HD MA, DTS-HD, DD+, DTS, DD |
-| Audio Channels | 3 | 7.1, 6.1, 5.1 |
-| Languages | 36 | English, Spanish, French, German, Japanese, Portuguese, and more |
-
-### Configs
-
-| Config | Description |
-|--------|-------------|
-| Fusion Widgets | Widget export — Top 10 rows, Discover, Streaming Services, Genres, Decades |
-| AIOMetadata | 577 catalogs across Streaming, Genres, Directors, Actors, Decades, Collections |
-| AIOStreams | Stream filtering with regex patterns for codec, resolution, audio |
-
 ---
 
 ## Repository Structure
@@ -99,14 +72,7 @@ fusion2-content/
 │   │   └── streaming/
 │   └── squares/          # Square-format images
 │       └── streaming/
-├── resource-filters/
-│   └── filters/          # Filter icons and JSON config
 ├── widgets/              # Fusion widget export configs
-├── addons/               # AIOMetadata & AIOStreams configs
-│   ├── aiometadata/
-│   └── aiostreams/
-├── assets/               # Streaming logos reference
-├── screenshots/
 ├── CONTRIBUTING.md
 ├── SECURITY.md
 ├── LICENSE
@@ -115,17 +81,16 @@ fusion2-content/
 
 ---
 
-## UME Ecosystem
+## SMP Ecosystem
 
-This repo is part of the **Unified Media Experience** suite:
+This repo is part of the **Streaming Media Players** suite:
 
 | Repo | Description |
 |------|-------------|
-| **fusion2-content** (this) | Posters, filters, widgets, and addon configs for Fusion |
-| [omni-content](https://github.com/Yakuza2635/omni-content) | Regex tags, catalog logos, snapshots, and configs for Omni |
-| [ume-config-vault](https://github.com/Yakuza2635/ume-config-vault) | Centralized config vault for all UME apps |
+| **fusion2-content** (this) | Folder posters and widget configs for Fusion |
+| [omni-content](https://github.com/Yakuza2635/omni-content) | Regex patterns, catalog logos, and snapshots for Omni |
+| [smp-app-configs](https://github.com/Yakuza2635/smp-app-configs) | Centralized addon and app configs |
 | [aiostreams](https://github.com/Yakuza2635/aiostreams) | Custom formatters for AIOStreams/Stremio |
-| [fusion-content](https://github.com/Yakuza2635/fusion-content) | Archive of previous Fusion content version |
 
 ---
 

@@ -1,0 +1,638 @@
+{
+  "services": [
+    {
+      "id": "realdebrid",
+      "enabled": true,
+      "credentials": {}
+    },
+    {
+      "id": "torbox",
+      "enabled": true,
+      "credentials": {}
+    },
+    {
+      "id": "alldebrid",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "premiumize",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "debridlink",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "stremio_nntp",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "nzbdav",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "altmount",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "offcloud",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "putio",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "easynews",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "easydebrid",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "debrider",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "pikpak",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "seedr",
+      "enabled": false,
+      "credentials": {}
+    },
+    {
+      "id": "stremthru_newz",
+      "enabled": false,
+      "credentials": {}
+    }
+  ],
+  "presets": [
+    {
+      "type": "library",
+      "instanceId": "lib",
+      "enabled": true,
+      "options": {
+        "name": "Library",
+        "timeout": 5000,
+        "resources": [
+          "stream"
+        ],
+        "mediaTypes": [],
+        "showRefreshActions": [
+          "catalog"
+        ],
+        "skipProcessing": false,
+        "hideStreams": false,
+        "useMultipleInstances": false
+      }
+    },
+    {
+      "type": "torbox",
+      "instanceId": "tbx",
+      "enabled": true,
+      "options": {
+        "name": "TorBox",
+        "timeout": 5000,
+        "resources": [
+          "stream"
+        ],
+        "mediaTypes": []
+      }
+    },
+    {
+      "type": "debridio",
+      "instanceId": "deb",
+      "enabled": true,
+      "options": {
+        "name": "Debridio",
+        "timeout": 5000
+      }
+    },
+    {
+      "type": "torrentio",
+      "instanceId": "tio",
+      "enabled": true,
+      "options": {
+        "name": "Torrentio",
+        "timeout": 5000,
+        "resources": [
+          "stream"
+        ],
+        "providers": [],
+        "useMultipleInstances": false
+      }
+    },
+    {
+      "type": "meteor",
+      "instanceId": "met",
+      "enabled": true,
+      "options": {
+        "name": "Meteor",
+        "timeout": 5000,
+        "resources": [
+          "stream"
+        ],
+        "includeP2P": false,
+        "removeTrash": false,
+        "useMultipleInstances": false,
+        "mediaTypes": []
+      }
+    },
+    {
+      "type": "comet",
+      "instanceId": "com",
+      "enabled": true,
+      "options": {
+        "name": "Comet",
+        "timeout": 5000,
+        "resources": [
+          "stream"
+        ],
+        "includeP2P": false,
+        "removeTrash": false,
+        "mediaTypes": []
+      }
+    },
+    {
+      "type": "stremthruTorz",
+      "instanceId": "stz",
+      "enabled": true,
+      "options": {
+        "name": "StremThru Torz",
+        "timeout": 5000,
+        "resources": [
+          "stream"
+        ],
+        "includeP2P": false,
+        "useMultipleInstances": false,
+        "mediaTypes": []
+      }
+    },
+    {
+      "type": "mediafusion",
+      "instanceId": "mdf",
+      "enabled": true,
+      "options": {
+        "name": "MediaFusion",
+        "timeout": 5000,
+        "resources": [
+          "stream"
+        ],
+        "useCachedResultsOnly": true,
+        "enableWatchlistCatalogs": false,
+        "downloadViaBrowser": false,
+        "contributorStreams": false,
+        "certificationLevelsFilter": [],
+        "nudityFilter": [],
+        "mediaTypes": []
+      }
+    },
+    {
+      "type": "knaben",
+      "instanceId": "kna",
+      "enabled": true,
+      "options": {
+        "name": "Knaben",
+        "timeout": 5000,
+        "mediaTypes": [],
+        "useMultipleInstances": false
+      }
+    },
+    {
+      "type": "peerflix",
+      "instanceId": "pfl",
+      "enabled": true,
+      "options": {
+        "name": "Peerflix",
+        "timeout": 5000,
+        "resources": [
+          "stream"
+        ],
+        "mediaTypes": [],
+        "useMultipleInstances": false,
+        "showTorrentLinks": true
+      }
+    },
+    {
+      "type": "sootio",
+      "instanceId": "soo",
+      "enabled": true,
+      "options": {
+        "name": "Sootio",
+        "timeout": 5000,
+        "resources": [
+          "stream"
+        ],
+        "httpProviders": [
+          "http4khdhub",
+          "httpHDHub4u",
+          "httpUHDMovies",
+          "httpMoviesDrive",
+          "httpMKVCinemas",
+          "httpMkvDrama",
+          "httpMalluMv",
+          "httpCineDoze",
+          "httpNetflixMirror",
+          "httpVixSrc"
+        ],
+        "mediaTypes": [],
+        "useMultipleInstances": false
+      }
+    },
+    {
+      "type": "debridio-watchtower",
+      "instanceId": "dew",
+      "enabled": true,
+      "options": {
+        "name": "Watchtower",
+        "timeout": 5000,
+        "resources": [
+          "stream"
+        ],
+        "mediaTypes": []
+      }
+    },
+    {
+      "type": "nuvio-streams",
+      "instanceId": "nuv",
+      "enabled": true,
+      "options": {
+        "name": "Nuvio Streams",
+        "timeout": 5000,
+        "resources": [
+          "stream"
+        ],
+        "showBoxRegion": "USA7",
+        "providers": [],
+        "mediaTypes": []
+      }
+    },
+    {
+      "type": "webstreamr",
+      "instanceId": "wst",
+      "enabled": true,
+      "options": {
+        "name": "WebStreamr",
+        "timeout": 5000,
+        "resources": [
+          "stream"
+        ],
+        "mediaTypes": [],
+        "providers": [
+          "multi",
+          "en",
+          "de",
+          "es",
+          "fr",
+          "hi",
+          "it",
+          "mx"
+        ],
+        "includeExternalUrls": false,
+        "showErrors": false
+      }
+    },
+    {
+      "type": "subhero",
+      "instanceId": "sbh",
+      "enabled": true,
+      "options": {
+        "name": "SubHero",
+        "timeout": 15000,
+        "resources": [
+          "subtitles"
+        ],
+        "languages": [
+          "en",
+          "pt",
+          "es"
+        ]
+      }
+    }
+  ],
+  "formatter": {
+    "id": "custom",
+    "definition": {
+      "name": "{stream.resolution::exists[\"{stream.resolution::replace('2160p','⭐⭐⭐⭐⭐ 4K UHD')::replace('1440p','⭐⭐⭐⭐☆ 2K QHD')::replace('1080p','⭐⭐⭐☆☆ FHD')::replace('720p','⭐⭐☆☆☆ HD')::replace('576p','⭐☆☆☆☆ SD')::replace('480p','⭐☆☆☆☆ SD')}\"||\"☆☆☆☆☆\"]} - {stream.title::exists[\"{stream.title::title::truncate(30)}\"||\"?\"]}{stream.year::exists[\" ({stream.year})\"||\"\"]}{stream.seasonEpisode::exists[\" ({stream.seasonEpisode::join(' ')::replace('S','Season ')::replace('E','Episode ')})\"||\"\"]}{stream.seadexBest::istrue[\" 🏆\"||\"\"]}{stream.seadex::istrue::and::stream.seadexBest::isfalse[\" 🥈\"||\"\"]}{stream.message::~Download[\"{tools.removeLine}\"||\"\"]}",
+      "description": "🎥 {stream.quality::exists[\"{stream.quality::title::replace('Bluray Remux','Lossless BD')::replace('Bluray','Blu-ray')::replace('Web-Dl','Streaming')::replace('Web-dl','Streaming')::replace('Webrip','Web Rip')::replace('Hdrip','HD Rip')::replace('Dvdrip','DVD Rip')::replace('Hdtv','HDTV')::replace('Cam','CAM')::replace('Ts','Telesync')::replace('Tc','Telecine')::replace('Scr','Screener')}\"||\"\"]} {stream.visualTags::exists[\"• {stream.visualTags::join(' ')::replace('DV','Dolby Vision')::replace('HDR10+','HDR10+')::replace('HDR10','HDR10')::replace('HDR','HDR')::replace('10bit','10-bit')}\"||\"\"]} {stream.encode::exists[\"• {stream.encode::replace('HEVC','H.265')::replace('hevc','H.265')::replace('AVC','H.264')::replace('avc','H.264')::replace('x265','H.265')::replace('x264','H.264')}\"||\"\"]} • 🔊 {stream.audioTags::exists[\"{stream.audioTags::join(' ')::replace('Atmos','Dolby Atmos')::replace('TrueHD','Dolby TrueHD')::replace('DTS-HD MA','DTS-MA')::replace('DD+','Dolby Digital+')::replace('DD','Dolby Digital')::replace('EAC3','Dolby Digital+')::replace('AC3','Dolby Digital')}\"||\"Stereo\"]}{stream.audioChannels::exists[\" {stream.audioChannels::join('/')}\"||\"\"]} • ⏱️ {stream.duration::>0[\"{stream.duration::time}\"||\"Unknown\"]}\n💾 {stream.size::>0[\"{stream.size::bytes}\"||\"Unknown\"]} • {service.cached::istrue[\"💎 Cached\"||\"⏳ Not Cached\"]}{stream.type::~debrid[\" (Debrid)\"||\"\"]}{stream.type::~p2p[\" (P2P)\"||\"\"]}{stream.type::~usenet[\" (Usenet)\"||\"\"]} • ☁️ {service.name::exists[\"{service.name}\"||\"Unknown\"]} • {addon.name}{stream.seeders::exists[\" • 👥 {stream.seeders}\"||\"\"]}{stream.age::exists[\" • 📅 {stream.age}\"||\"\"]}\n{stream.uLanguages::exists[\"🗣️ {stream.uLanguageEmojis::join(' ')} • \"||\"\"]}{stream.seasonPack::istrue[\"📦 Pack • \"||\"\"]}{stream.filename::~NF[\"🎬 Netflix • \"||\"\"]}{stream.filename::~DSNP[\"🏰 Disney+ • \"||\"\"]}{stream.filename::~HMAX[\"🟪 HBO Max • \"||\"\"]}{stream.filename::~.MAX.[\"🟪 Max • \"||\"\"]}{stream.filename::~AMZN[\"📦 Amazon • \"||\"\"]}{stream.filename::~APTV[\"🍎 Apple TV+ • \"||\"\"]}{stream.filename::~PMTP[\"⛰️ Paramount+ • \"||\"\"]}{stream.filename::~PCOK[\"🦚 Peacock • \"||\"\"]}{stream.filename::~CRTC[\"🍥 Crunchyroll • \"||\"\"]}{stream.filename::~CR.[\"🍥 Crunchyroll • \"||\"\"]}{stream.releaseGroup::exists[\"👤 {stream.releaseGroup::truncate(10)}\"||\"\"]}{stream.seadexBest::istrue[\" • 🏆 BEST\"||\"\"]}{stream.seadex::istrue::and::stream.seadexBest::isfalse[\" • 🥈 ALT\"||\"\"]}{stream.repack::istrue[\" • 🔄 Repack\"||\"\"]}\n📄 {stream.filename::exists[\"{stream.filename}\"||\"—\"]}"
+    }
+  },
+  "preferredQualities": [
+    "BluRay",
+    "BluRay REMUX",
+    "WEB-DL",
+    "WEBRip",
+    "HDRip",
+    "HC HD-Rip",
+    "DVDRip",
+    "HDTV",
+    "Unknown"
+  ],
+  "preferredResolutions": [
+    "2160p",
+    "1440p",
+    "1080p",
+    "720p",
+    "576p",
+    "480p",
+    "360p",
+    "240p",
+    "144p",
+    "Unknown"
+  ],
+  "excludedQualities": [
+    "CAM",
+    "SCR",
+    "TS",
+    "TC"
+  ],
+  "excludedVisualTags": [
+    "3D"
+  ],
+  "sortCriteria": {
+    "global": [
+      {
+        "key": "cached",
+        "direction": "desc"
+      }
+    ],
+    "cached": [
+      {
+        "key": "seadex",
+        "direction": "desc"
+      },
+      {
+        "key": "resolution",
+        "direction": "desc"
+      },
+      {
+        "key": "quality",
+        "direction": "desc"
+      },
+      {
+        "key": "streamExpressionMatched",
+        "direction": "desc"
+      },
+      {
+        "key": "streamExpressionScore",
+        "direction": "desc"
+      },
+      {
+        "key": "language",
+        "direction": "desc"
+      },
+      {
+        "key": "bitrate",
+        "direction": "desc"
+      }
+    ],
+    "uncached": [
+      {
+        "key": "seadex",
+        "direction": "desc"
+      },
+      {
+        "key": "resolution",
+        "direction": "desc"
+      },
+      {
+        "key": "quality",
+        "direction": "desc"
+      },
+      {
+        "key": "streamExpressionMatched",
+        "direction": "desc"
+      },
+      {
+        "key": "streamExpressionScore",
+        "direction": "desc"
+      },
+      {
+        "key": "seeders",
+        "direction": "desc"
+      },
+      {
+        "key": "language",
+        "direction": "desc"
+      },
+      {
+        "key": "bitrate",
+        "direction": "desc"
+      }
+    ]
+  },
+  "posterService": "rpdb",
+  "deduplicator": {
+    "enabled": true,
+    "excludeAddons": [],
+    "keys": [
+      "filename",
+      "infoHash",
+      "smartDetect"
+    ],
+    "cached": "single_result",
+    "uncached": "per_service",
+    "p2p": "single_result",
+    "smartDetectAttributes": [
+      "size",
+      "resolution",
+      "quality",
+      "visualTags",
+      "audioTags",
+      "audioChannels",
+      "languages",
+      "encode",
+      "edition",
+      "network",
+      "remastered"
+    ]
+  },
+  "autoPlay": {
+    "method": "matchingFile",
+    "attributes": [
+      "resolution",
+      "quality"
+    ]
+  },
+  "cacheAndPlay": {
+    "enabled": true,
+    "streamTypes": [
+      "usenet"
+    ]
+  },
+  "statistics": {
+    "statsToShow": [
+      "addon",
+      "filter"
+    ]
+  },
+  "digitalReleaseFilter": {
+    "enabled": true,
+    "requestTypes": [
+      "movie",
+      "series",
+      "anime"
+    ],
+    "addons": []
+  },
+  "ageRangeTypes": [
+    "usenet"
+  ],
+  "seasonEpisodeMatching": {
+    "enabled": true,
+    "strict": true,
+    "requestTypes": [
+      "movie",
+      "series",
+      "anime"
+    ],
+    "addons": []
+  },
+  "yearMatching": {
+    "enabled": true,
+    "requestTypes": [
+      "movie",
+      "series",
+      "anime"
+    ],
+    "addons": []
+  },
+  "titleMatching": {
+    "enabled": true,
+    "requestTypes": [
+      "movie",
+      "series",
+      "anime"
+    ],
+    "addons": []
+  },
+  "precacheNextEpisode": true,
+  "precacheSingleStream": true,
+  "precacheSelector": "count(cached(streams)) == 0 ? uncached(streams) : []",
+  "enableSeadex": true,
+  "regexOverrides": [],
+  "checkOwned": true,
+  "proxy": {
+    "id": "mediaflow",
+    "proxiedAddons": [],
+    "proxiedServices": []
+  },
+  "addonName": "AIOStreams | YakuzaPT",
+  "trusted": false,
+  "excludedResolutions": [],
+  "includedResolutions": [],
+  "requiredResolutions": [],
+  "includedQualities": [],
+  "requiredQualities": [],
+  "excludedLanguages": [],
+  "includedLanguages": [],
+  "requiredLanguages": [],
+  "preferredLanguages": [
+    "English",
+    "Portuguese",
+    "Spanish",
+    "Original",
+    "Dual Audio",
+    "Multi",
+    "Dubbed",
+    "Unknown"
+  ],
+  "preferredVisualTags": [
+    "HDR+DV",
+    "HDR10+",
+    "HDR10",
+    "DV",
+    "HDR",
+    "10bit",
+    "IMAX"
+  ],
+  "preferredAudioTags": [
+    "Atmos",
+    "DD+",
+    "DD"
+  ],
+  "preferredStreamTypes": [],
+  "excludedEncodes": [],
+  "includedEncodes": [],
+  "requiredEncodes": [],
+  "preferredEncodes": [
+    "AV1",
+    "HEVC",
+    "AVC",
+    "Unknown"
+  ],
+  "excludeCachedFromAddons": [],
+  "excludeCachedFromServices": [],
+  "excludeCachedFromStreamTypes": [],
+  "excludeUncachedFromAddons": [],
+  "excludeUncachedFromServices": [],
+  "excludeUncachedFromStreamTypes": [],
+  "hideErrorsForResources": [],
+  "catalogModifications": [],
+  "requiredAudioTags": [],
+  "excludedAudioTags": [],
+  "includedAudioTags": [],
+  "seederRangeTypes": [],
+  "nzbFailover": {
+    "enabled": true
+  },
+  "usePosterServiceForMeta": true,
+  "usePosterRedirectApi": true,
+  "requiredVisualTags": [],
+  "includedVisualTags": [],
+  "mergedCatalogs": [],
+  "preferredRegexPatterns": [],
+  "syncedPreferredRegexUrls": [],
+  "rankedStreamExpressions": [],
+  "excludedStreamExpressions": [],
+  "preferredStreamExpressions": [],
+  "includedStreamExpressions": [],
+  "hideErrors": true,
+  "requiredStreamTypes": [],
+  "excludedStreamTypes": [],
+  "includedStreamTypes": [],
+  "requiredAudioChannels": [],
+  "excludedAudioChannels": [],
+  "includedAudioChannels": [],
+  "preferredAudioChannels": [],
+  "excludedKeywords": [
+    "r00",
+    "iso"
+  ],
+  "dynamicAddonFetching": {
+    "enabled": false,
+    "condition": "((count(regexMatched(resolution(language(quality(cached(totalStreams),'Bluray REMUX','Bluray','WEB-DL'),'Multi','Dual Audio'),'2160p')))>=2 or count(regexMatched(resolution(language(quality(cached(totalStreams),'Bluray REMUX','Bluray','WEB-DL'),'Unknown'),'2160p')))>=3 or count(regexMatched(resolution(language(quality(cached(totalStreams),'Bluray REMUX','Bluray','WEB-DL'),'English'),'2160p')))>=3) and (count(regexMatched(resolution(cached(totalStreams),'2160p')))>=5 or count(regexMatched(resolution(cached(totalStreams),'1080p')))>=5)) or (count(cached(totalStreams))>=3 and totalTimeTaken>5000) or totalTimeTaken>7000"
+  },
+  "syncedExcludedStreamExpressionUrls": [
+    "https://raw.githubusercontent.com/Tam-Taro/SEL-Filtering-and-Sorting/refs/heads/main/AIOStreams-SyncedURLs/Tamtaro-synced-ESEs-extended.json"
+  ],
+  "syncedIncludedStreamExpressionUrls": [
+    "https://raw.githubusercontent.com/Tam-Taro/SEL-Filtering-and-Sorting/refs/heads/main/AIOStreams-SyncedURLs/Tamtaro-synced-ISEs.json"
+  ],
+  "syncedPreferredStreamExpressionUrls": [
+    "https://raw.githubusercontent.com/Tam-Taro/SEL-Filtering-and-Sorting/refs/heads/main/AIOStreams-SyncedURLs/Tamtaro-synced-PSEs.json"
+  ],
+  "syncedRankedRegexUrls": [
+    "https://raw.githubusercontent.com/Vidhin05/Releases-Regex/main/English/regexes.json"
+  ],
+  "syncedRankedStreamExpressionUrls": [
+    "https://raw.githubusercontent.com/Vidhin05/Releases-Regex/main/English/expressions.json"
+  ],
+  "showChanges": true,
+  "addonLogo": "https://github.com/Yakuza2635/AIOStreams/blob/main/assets/ykz-logo.png?raw=true"
+}

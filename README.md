@@ -89,7 +89,7 @@ This repo is part of the **Streaming Media Players** suite:
 |------|-------------|
 | **fusion2-content** (this) | Folder posters and widget configs for Fusion |
 | [omni-content](https://github.com/Yakuza2635/omni-content) | Regex patterns, catalog logos, and snapshots for Omni |
-| [smp-app-configs](https://github.com/Yakuza2635/smp-app-configs) | Centralized addon and app configs |
+| [aio-ykz-addons-configs](https://github.com/Yakuza2635/aio-ykz-addons-configs) | Centralized addon and app configs |
 | [aiostreams](https://github.com/Yakuza2635/aiostreams) | Custom formatters for AIOStreams/Stremio |
 
 ---

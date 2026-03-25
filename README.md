@@ -125,3 +125,24 @@ This project is licensed under the [MIT License](LICENSE).
 *Enhancing your Fusion media library experience*
 
 </div>
+
+## Installation
+
+No external tools required. All content is imported directly inside the Fusion app:
+
+1. Open **Fusion** on your iPhone or iPad
+2. Go to **Settings → Folders → Import Folders from URL** for posters
+3. Go to **Settings → Resource Filters → Import from URL** for filters
+4. Paste any URL from the tables above and confirm the import
+
+## Usage
+
+To keep content up to date, re-import the same URL when new posters or filters are added to this repo. Existing entries will be updated without duplicating.
+
+## Contributing
+
+Contributions are welcome. Submit a Pull Request or open an Issue with your suggestion.
+
+## License
+
+This project is licensed under the terms in [LICENSE](LICENSE).

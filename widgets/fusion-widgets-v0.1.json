@@ -70,7 +70,7 @@
               "hideTitle": true,
               "id": "992B0026-44F3-47EB-A6CD-31B2ED2CC166",
               "imageAspect": "wide",
-              "imageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion_app-content/main/folders/landscapes/discover/Watchlist.png",
+              "imageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion2-content/main/folders/landscapes/discover/Watchlist.png",
               "title": "Trakt Watchlist"
             },
             {
@@ -1553,67 +1553,16 @@
                   "kind": "addonCatalog",
                   "payload": {
                     "addonId": "https://aiometadatafortheweebs.midnightignite.me/stremio/040df51d-eb27-44e0-91fd-eff94cd45149/manifest.json",
-                    "catalogId": "movie::mdblist.2820",
+                    "catalogId": "movie::mdblist.91304",
                     "type": "movie"
                   }
                 }
               ],
               "hideTitle": true,
-              "id": "8CC077C2-B029-4BC3-9DFE-1E6F256F07BB",
+              "id": "D63C85F8-9313-415A-97B8-A505BB75714D",
               "imageAspect": "wide",
-              "imageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion2-content/main/folders/landscapes/decades/70s.png",
-              "title": "70s Movies"
-            },
-            {
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadatafortheweebs.midnightignite.me/stremio/040df51d-eb27-44e0-91fd-eff94cd45149/manifest.json",
-                    "catalogId": "movie::mdblist.91301",
-                    "type": "movie"
-                  }
-                }
-              ],
-              "hideTitle": true,
-              "id": "BA5E7195-0554-4002-8BA8-D8CAA4265A73",
-              "imageAspect": "wide",
-              "imageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion2-content/main/folders/landscapes/decades/80s.png",
-              "title": "80s Movies"
-            },
-            {
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadatafortheweebs.midnightignite.me/stremio/040df51d-eb27-44e0-91fd-eff94cd45149/manifest.json",
-                    "catalogId": "movie::mdblist.91300",
-                    "type": "movie"
-                  }
-                }
-              ],
-              "hideTitle": true,
-              "id": "31C948B1-E1B7-4FF4-A53A-2C878109086F",
-              "imageAspect": "wide",
-              "imageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion2-content/main/folders/landscapes/decades/90s.png",
-              "title": "90s Movies"
-            },
-            {
-              "dataSources": [
-                {
-                  "kind": "addonCatalog",
-                  "payload": {
-                    "addonId": "https://aiometadatafortheweebs.midnightignite.me/stremio/040df51d-eb27-44e0-91fd-eff94cd45149/manifest.json",
-                    "catalogId": "movie::mdblist.91302",
-                    "type": "movie"
-                  }
-                }
-              ],
-              "hideTitle": true,
-              "id": "D04AF756-3007-4A8A-98D4-ECF71F50A69A",
-              "imageAspect": "wide",
-              "imageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion2-content/main/folders/landscapes/decades/00s.png",
-              "title": "00s Movies"
+              "imageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion2-content/main/folders/landscapes/decades/20s.png",
+              "title": "20s Movies"
             },
             {
               "dataSources": [
@@ -1638,16 +1587,67 @@
                   "kind": "addonCatalog",
                   "payload": {
                     "addonId": "https://aiometadatafortheweebs.midnightignite.me/stremio/040df51d-eb27-44e0-91fd-eff94cd45149/manifest.json",
-                    "catalogId": "movie::mdblist.91304",
+                    "catalogId": "movie::mdblist.91302",
                     "type": "movie"
                   }
                 }
               ],
               "hideTitle": true,
-              "id": "D63C85F8-9313-415A-97B8-A505BB75714D",
+              "id": "D04AF756-3007-4A8A-98D4-ECF71F50A69A",
               "imageAspect": "wide",
-              "imageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion2-content/main/folders/landscapes/decades/20s.png",
-              "title": "20s Movies"
+              "imageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion2-content/main/folders/landscapes/decades/00s.png",
+              "title": "00s Movies"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadatafortheweebs.midnightignite.me/stremio/040df51d-eb27-44e0-91fd-eff94cd45149/manifest.json",
+                    "catalogId": "movie::mdblist.91300",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": true,
+              "id": "31C948B1-E1B7-4FF4-A53A-2C878109086F",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion2-content/main/folders/landscapes/decades/90s.png",
+              "title": "90s Movies"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadatafortheweebs.midnightignite.me/stremio/040df51d-eb27-44e0-91fd-eff94cd45149/manifest.json",
+                    "catalogId": "movie::mdblist.91301",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": true,
+              "id": "BA5E7195-0554-4002-8BA8-D8CAA4265A73",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion2-content/main/folders/landscapes/decades/80s.png",
+              "title": "80s Movies"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadatafortheweebs.midnightignite.me/stremio/040df51d-eb27-44e0-91fd-eff94cd45149/manifest.json",
+                    "catalogId": "movie::mdblist.2820",
+                    "type": "movie"
+                  }
+                }
+              ],
+              "hideTitle": true,
+              "id": "8CC077C2-B029-4BC3-9DFE-1E6F256F07BB",
+              "imageAspect": "wide",
+              "imageURL": "https://raw.githubusercontent.com/Yakuza2635/fusion2-content/main/folders/landscapes/decades/70s.png",
+              "title": "70s Movies"
             }
           ]
         }

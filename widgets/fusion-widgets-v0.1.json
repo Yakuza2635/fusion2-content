@@ -2818,6 +2818,31 @@
                   "kind": "addonCatalog",
                   "payload": {
                     "addonId": "https://aiometadatafortheweebs.midnightignite.me/stremio/040df51d-eb27-44e0-91fd-eff94cd45149/manifest.json",
+                    "catalogId": "movie::mdblist.2792",
+                    "type": "movie"
+                  }
+                },
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadatafortheweebs.midnightignite.me/stremio/040df51d-eb27-44e0-91fd-eff94cd45149/manifest.json",
+                    "catalogId": "series::mdblist.91263",
+                    "type": "series"
+                  }
+                }
+              ],
+              "hideTitle": false,
+              "id": "27A5EFFE-356E-412C-AD9A-485BBC723348",
+              "imageAspect": "poster",
+              "imageURL": "",
+              "title": "Adam Sandler"
+            },
+            {
+              "dataSources": [
+                {
+                  "kind": "addonCatalog",
+                  "payload": {
+                    "addonId": "https://aiometadatafortheweebs.midnightignite.me/stremio/040df51d-eb27-44e0-91fd-eff94cd45149/manifest.json",
                     "catalogId": "movie::mdblist.143685",
                     "type": "movie"
                   }
